@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   groceries.collect do|groceri, el|
     el.each do |att, data|
-      groceries[att]
+      groceries[data]
     end
   end
 end
